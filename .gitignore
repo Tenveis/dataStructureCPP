@@ -1,0 +1,60 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build directory
+build/
+
+# VS Code specific files
+.vscode/
+
+# User-specific settings
+.vscode/settings.json
+
+# CMake Caches and related files
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeDownload.cmake
+CMakeExternalProject.cmake
+CMakeError.log
+CMakeOutput.log
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Sublime Text specific files
+*.sublime-project
+*.sublime-workspace
