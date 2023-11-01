@@ -1,11 +1,11 @@
 /**
  * @file linked_list.cpp
- * @author vaibhav 
+ * @author vaibhav
  * @brief Source file for LinkedList library.
  * @version 0.1
  * @date 2023-11-01
- * 
- * 
+ *
+ *
  */
 #include "LinkedList/linked_list.h"
 

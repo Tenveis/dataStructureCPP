@@ -8,8 +8,8 @@
  *
  */
 
-#ifndef INCLUDE_LINKEDLIST_H
-#define INCLUDE_LINKEDLIST_H
+#ifndef INCLUDE_LINKED_LIST_H
+#define INCLUDE_LINKED_LIST_H
 #pragma once
 
 #include <iostream>
