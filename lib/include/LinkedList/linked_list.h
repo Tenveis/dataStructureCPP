@@ -1,5 +1,5 @@
 /**
- * @file LinkedList.h
+ * @file linked_list.h
  * @author vaibhav
  * @brief This file contains the declarations for the Node class and the LinkedList class.
  * @version 0.1

@@ -1,3 +1,5 @@
+message("--> Traversing Directory: test")
+
 find_package(GTest REQUIRED)
 
 add_executable(LinkedListTest
