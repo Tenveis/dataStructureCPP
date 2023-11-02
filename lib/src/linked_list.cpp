@@ -7,7 +7,7 @@
  *
  *
  */
-#include "LinkedList/linked_list.h"
+#include "data_structures/linked_list.h"
 
 Node::Node(int value)
 {

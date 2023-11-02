@@ -8,7 +8,7 @@
  *
  */
 
-#include "DoubleLinkedList/double_linked_list.h"
+#include "data_structures/double_linked_list.h"
 
 Node::Node(int value)
 {

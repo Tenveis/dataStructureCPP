@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "LinkedList/linked_list.h"
+#include "data_structures/linked_list.h"
 
 TEST(LinkedListTest, ConstructorTest)
 {

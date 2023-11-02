@@ -8,7 +8,7 @@
  * 
  */
 
-#include "LinkedList/linked_list.h"
+#include "data_structures/linked_list.h"
 
 
 int main(int argc, char const *argv[])
