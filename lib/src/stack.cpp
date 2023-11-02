@@ -1,7 +1,7 @@
 /**
  * @file stack.cpp
  * @author vaibhav
- * @brief
+ * @brief Implementation of Node class and Stack class.
  * @version 0.1
  * @date 2023-11-02
  *
@@ -31,6 +31,69 @@ Stack::Stack(int value)
 Stack::~Stack()
 {
     clear();
+}
+
+void Stack::printStack()
+{
+    Node *current = top;
+    while (current->next)
+    {
+        cout << current->value << " -> ";
+    }
+    cout << current->value << endl;
+}
+
+int Stack::getTop()
+{
+    if (top)
+    {
+        return top->value;
+    }
+    cout << "The Stack is empty." << endl;
+    return INT_MIN;
+}
+
+int Stack::getHeight()
+{
+    return height;
+}
+
+bool Stack::is_empty()
+{
+    if (top)
+        return false;
+    return true;
+}
+
+void Stack::push(int value)
+{
+    Node *newNode = new Node(value);
+
+    newNode->next = top;
+    top = newNode;
+    height++;
+}
+
+int Stack::pop()
+{
+    if (height == 0)
+    {
+        cout << "The Stack is empty." << endl;
+        return INT_MIN;
+    }
+    Node *current = top;
+    if (height == 1)
+    {
+        top = nullptr;
+    }
+    else
+    {
+        top = top->next;
+    }
+    int poppedValue = current->value;
+    delete current;
+    height--;
+    return poppedValue;
 }
 
 void Stack::clear()

@@ -10,6 +10,11 @@
 #define INCLUDE_STACK_H
 #pragma once
 
+#include <iostream>
+#include <limits.h>
+
+using namespace std;
+
 /**
  * @class Node
  * @brief A class representing a node in a stack.
@@ -55,6 +60,41 @@ private:
     int height; ///< The current height of the stack.
 
 public:
+    /**
+     * @brief Print the elements of the stack.
+     */
+    void printStack();
+
+    /**
+     * @brief Get the top element of the stack without removing it.
+     * @return The top element of the stack.
+     */
+    int getTop();
+
+    /**
+     * @brief Get the height (number of elements) of the stack.
+     * @return The number of elements in the stack.
+     */
+    int getHeight();
+
+    /**
+     * @brief Check if the stack is empty.
+     * @return `true` if the stack is empty, `false` otherwise.
+     */
+    bool is_empty();
+
+    /**
+     * @brief Push an element onto the stack.
+     * @param value The element to be pushed onto the stack.
+     */
+    void push(int value);
+
+    /**
+     * @brief Pop and return the top element from the stack.
+     * @return The top element that was removed from the stack.
+     */
+    int pop();
+
     /**
      * Clears the stack, removing all elements.
      */
