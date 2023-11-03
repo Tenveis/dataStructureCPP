@@ -28,6 +28,16 @@ target_include_directories(
     PUBLIC ${INCLUDE_FILES}
 )
 
+add_library(QueueLibrary
+    src/queue.cpp
+)
+target_include_directories(
+    QueueLibrary
+    PUBLIC ${INCLUDE_FILES}
+)
+
+
 add_library(LinkedList::LinkedListLibrary ALIAS LinkedListLibrary)
 add_library(DoubleLinkedList::DoubleLinkedListLibrary ALIAS DoubleLinkedListLibrary)
 add_library(Stack::StackLibrary ALIAS StackLibrary)
+add_library(Queue::QueueLibrary ALIAS QueueLibrary)

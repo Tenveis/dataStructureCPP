@@ -18,6 +18,8 @@ The library currently includes the following data structures:
 
 - **LinkedList**: A classic singly-linked list.
 - **DoublyLinkedList**: A doubly-linked list with forward and backward traversal.
+- **Stack**: A stack implementation that follows the Last-In-First-Out (LIFO) principle.
+- **Queue**: A queue implementation that follows the First-In-First-Out (FIFO) principle.
 
 ## Getting Started
 
